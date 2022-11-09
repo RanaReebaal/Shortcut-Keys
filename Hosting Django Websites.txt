@@ -87,8 +87,15 @@ If, like most sites, your site uses a database, you'll need to set that up. Go t
 
 
 TO clear Disk Space on Pythonanywhere.com 
-Run the following commads after opening the bash console of Pythonanywhere.com
+Open the bash console of Pythonanywhere.com
+Run the following command:
 
 du -hs /tmp
+
+and then run:
+
 rm -rf /tmp/*
+
+after that your most of data occupied by git files will be removed
+
 
